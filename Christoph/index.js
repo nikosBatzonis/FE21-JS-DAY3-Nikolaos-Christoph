@@ -38,7 +38,7 @@
 // document.write(tempV1(-5, 50));
 // -------------------------------------Intermediate--------------------------------------
 var grade = (points) => {
-    switch(points){
+    switch(true){
         case(points < 60):
             document.getElementById("grade").innerHTML = "F";
             break;
@@ -59,7 +59,7 @@ var grade = (points) => {
             break;
     }
 }
-grade(10);
+grade(65);
 
 // var avgGrade = grades => {
 //     let sum = 0;
